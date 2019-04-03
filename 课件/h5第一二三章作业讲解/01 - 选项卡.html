@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+		<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+		<title>选项卡 - 木马老师</title>
+		<meta name="Keywords" content="关键词,关键词" />
+		<meta name="description" content="描述" />
+
+		<style type='text/css'>
+			*{margin:0;padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+			.clearfix:after{content:'';display: block;clear:both;}
+			body{background: #ccc;}
+			.wrap{position: relative;width: 500px;margin:100px auto;color:#fff;font-size: 22px;}
+			.wrap li{float:left;}
+			.wrap li input{display: none;}
+
+
+			.wrap li label{
+				position: relative;
+				top: 0px;
+				display: block;
+				width: 82px;
+				height: 56px;
+				background:#6A9E52;
+				cursor:pointer;
+				border-radius:5px 5px 0 0;
+				text-align:center;
+				line-height:56px;	
+				transition:0.2s ease-in-out;
+				
+			}
+			.wrap li label:hover{
+				background: #508438;
+			}
+
+			.wrap li div{display: none;position: absolute;top: 52px;left: -40px;z-index:1;width: 340px;height: 185px;padding:25px;background: #376B1F;font-size: 18px;line-height:40px;}
+
+			/*关联选择器 选择input后面所有的div标签*/
+			input:checked + label{top: -4px;padding-top:4px;background: #376B1F;text-decoration:underline;}
+			input:checked ~ div{display: block;}
+		</style>
+	</head>
+<body>
+	
+	<ul class='wrap clearfix'>
+		<li>
+			<input type="radio" name='tabs'  id='tab1' checked>
+			<label for="tab1">头条</label>
+			
+			<div>
+				<p>[热议]GalaxyS8成最值期待新机</p>
+				<p>[热议]木马太帅了</p>
+				<p>[热议]同学们太棒了</p>
+				<p>[热议]你们是最胖的</p>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name='tabs' id='tab2'>
+			<label for="tab2">公告</label>
+			
+			<div>
+				<p>[111]同学么真的是最胖的呢</p>
+				<p>[111]同学么真的是最胖的呢</p>
+				<p>[热议]同学们太棒了</p>
+				<p>[热议]你们是最胖的</p>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name='tabs' id='tab3'>
+			<label for="tab3">足球</label>
+			
+			<div>
+				<p>[222]我爱你们亲爱的同学们</p>
+				<p>[2222]我爱你们亲爱的同学们</p>
+				<p>[热议]我爱你们亲爱的同学们</p>
+				<p>[热议]你们是最胖的</p>
+			</div>
+		</li>
+		
+	</ul>
+
+
+</body>
+</html>

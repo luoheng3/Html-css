@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+		<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+		<title>新增选择器 - 木马老师</title>
+		<meta name="Keywords" content="关键词,关键词" />
+		<meta name="description" content="描述" />
+
+		<style type='text/css'>
+			*{margin:0;padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+			body{font-size:30px;}
+
+
+			/*匹配具有src属性  并且以img开头的元素*/
+			[src^='ima']{border:5px solid red;}
+
+			/*匹配具有src属性  并且以img结尾的元素*/
+			[src$='png']{border:5px solid blue;}
+
+			/*匹配具有src属性  并且以包含2.的元素*/
+			[src*='2.']{border:5px solid pink;}
+
+
+
+
+			/*关联选择器  选择器span后面所有的p元素*/
+			span ~ p{color:red;}
+
+		</style>
+	</head>
+<body>
+
+	<img src="images/1.jpg" alt="">
+	<img src="images/2.png" alt="">
+	<img src="images/3.png" alt="">	
+
+
+
+	<div>
+		<span>峰峰大游侠</span>
+		<p>丁丁</p>
+		<div>小学弟</div>
+		<p>小飞象</p>
+		<p>微光迷人</p>
+		<p>成都进口打印机</p>
+		<p>张干</p>
+	</div>
+
+
+
+
+
+
+</body>
+</html>

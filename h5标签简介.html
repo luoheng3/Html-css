@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 2000px;
+            background-color: black;
+        }
+        *{
+            font-family:"monokai";
+        }
+        pre{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        1:  HTML5不兼容IE8及其以下
+                对于不兼容的加上兼容性前缀
+                    1:  -webkit-box-shadow:5px 5px 10px red;
+                    2:  -webkit-   兼容谷歌的前缀
+                    3:  -moz-      兼容火狐
+                    4:  -ms-       兼容微软的
+                    5:  -o-        兼容欧朋
+
+        2: 新增标签
+            1: header   头部标签
+            2: nav      导航
+            3: article  定义页面独立的文章内容
+            4: section  定义一块区域  类似于div
+            5: hgroup   定义标题标签的组合
+            6: figure   定义独立的流内容 (图像 照片 代码等)
+                    figcaption 相当于对他的描述不能单独出现
+
+            7: aside    定义侧边栏,广告 nav元素组
+            8: footer   定义网页的底部区域
+
+        3: 特殊结构标签
+            1: mark
+                    <mark>这里是mark标签呈现出来的</mark>
+            2: ruby rt rp(备胎)  可以写出汉子的拼音
+                    <ruby>这是ruby<rt>zheshiruby</rt></ruby>
+
+            3: meter    表示尺度 min=0 max=100 value=90(占比) low=规定最小值 high
+                    <meter min="0" max="100" value="60" low="20" high="80"></meter>
+
+            4: progress 进度条 min=0 max=100 value=60
+                    <progress min="0" max="100" value="60"></progress>
+
+            5: dialog
+                    <dialog open>加油,你是最胖的!!!</dialog>
+
+            6: details  用于描述文档的细节部分
+                <details>
+                    <summary>summary</summary>
+                    <p>细节部分</p>
+                </details>
+
+        3: IE低版本的兼容
+                css里面写上 display:block;
+                在script里面写上 document.createElementElement("header");
+                写上IE条件注释语句
+
+    </pre>
+<script>
+
+</script>
+</body>
+</html>
+</html>

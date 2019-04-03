@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<!--声明当前页面的编码集：charset=gbk,gb2312(中文编码)，utf-8国际编码-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--当前页面的三要素-->
+		<title>国际标准模板</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="">
+
+		<!--css,js-->
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			body{font:12px '微软雅黑'; color:#666;}
+			ul{list-style:none;}
+			a{text-decoration:none;#666}
+			.clearfix:after{content:'';display:block;clear:both;}
+
+		</style>
+
+	</head>
+<body>
+
+	<div id='container'></div>
+
+<script>
+
+	(function(win,doc){
+		var docEl = doc.documentElement || document.body;//获取HTML标签
+		var container = doc.getElementById('container');//container元素
+		//判断是移动端设备还是PC,移动 就采用'orientationchange',横竖屏事件，PC端就采用onresize，窗口改变时间
+		var resize = 'orientationchange' in win ? 'orientationchange':'resize';
+		function rem(){
+			//alert(1);
+			docEl.style.fontSize= 100*(container.clientWidth/720)+'px';
+		}	
+		doc.addEventListener('DOMContentLoaded',rem,false);
+		//监听'DOMContent事件:DOM加载完成执行,如果DOMContent事件，那么执行rem函数
+		//alert(resize);
+		win.addEventListener(resize,rem,false);
+		//win下监听resize事件,如果resize事件，那么执行rem函数
+	})(window,document)
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+		<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+		<title>新增背景属性 - 木马老师</title>
+		<meta name="Keywords" content="关键词,关键词" />
+		<meta name="description" content="描述" />
+
+		<style type='text/css'>
+			*{margin:0;padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+			body{height: 2000px;}
+				
+			div{width:800px;height: 500px;margin:50px auto;border:5px solid red;
+				background: url('images/2.png') no-repeat ;
+				/*背景图片的大小*/
+				background-size:50% 50% ;
+
+
+				/*cover 等比例缩放图片 直到图片的四条边全部占满盒子 但是不一定能看到全图*/
+				background-size:cover ;
+
+				/*contain 同上 只有一条边占满盒子就会停下来 保证看到全图*/
+				background-size:contain ;
+
+
+
+				/*多背景 用逗号隔开*/
+				background-image:url('images/1.png'),url('images/1.jpg'),url('images/3.png');}
+
+
+				
+				p{width: 500px;height: 500px;margin:auto;padding:50px;background: url('images/3.png') no-repeat -30px -30px;border:30px solid rgba(0,0,0,.2);
+				/*背景起始区域*/
+				/*默认值  从padding开始*/
+					/* background-origin: padding-box; */
+
+				/*从内容开始*/
+					/* background-origin: content-box; */
+
+				/*从边框开始*/
+					/*  background-origin: border-box; */
+
+
+
+
+
+				
+				/*边框的显示位置*/
+					/*从border开始显示背景 默认值*/
+					/* background-clip: border-box; */
+
+					/*规定从padding区域开始裁剪*/
+					/* background-clip: padding-box; */
+					
+					/*规定从内容区域开始裁剪*/
+					/* background-clip: content-box; */
+					
+					/*
+						背景：背景图片 背景重复 背景的位置/背景图片的大小 背景的起始 背景的裁剪 背景的关联 背景颜色
+					*/
+					background:url('images/3.png') no-repeat,url('images/1.jpg') no-repeat 50px center/500px 500px content-box content-box fixed #666;
+				}
+		</style>
+	</head>
+<body>
+	
+	
+	<div>
+		
+	</div>
+	
+	<p></p>
+</body>
+</html>

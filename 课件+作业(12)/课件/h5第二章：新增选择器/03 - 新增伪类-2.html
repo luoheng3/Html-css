@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+		<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+		<title>新增伪类 - 木马老师</title>
+		<meta name="Keywords" content="关键词,关键词" />
+		<meta name="description" content="描述" />
+
+		<style type='text/css'>
+			*{margin:0;padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+			body{font-size:30px;}
+			
+
+
+			/*选择没有内容的p*/
+			/* p:empty{height:50px;background:red;} */
+
+			a{background:pink;margin:20px;}
+			p{/* display:none; */background:red;}
+
+			/*选择被锚点激活的p*/
+			p:target{display:block;}
+
+			/*规定可以被操作的input*/
+			input:enabled{width:300px;height:30px;background:red;}
+			/*规定不可以被操作的input*/
+			input:disabled{background:blue;}
+			
+			/*规定可以被选中的input*/
+			input:checked{width:30px;height:30px;}
+			input:checked ~ p{display:block;height:40px;background:red;}
+
+			/*选择除了.afei之外其他p标签*/
+			.ganga{margin-top:100px;}
+			.ganga p:not(.afei){color:blue;}
+
+			/*选择可以选中的input*/
+			input::selection{background:#cc00cc;}
+		</style>
+	</head>
+<body>
+	
+	<div>
+		<a href="#box">同学们</a>
+		<a href="#box1">木马</a>
+
+
+		<p id='box'>太帮了</p>
+		<p id='box1'>我爱你</p>
+	</div>
+	<input type="text" name='text' />
+	<input type="text" name='' disabled='disabled' />	
+
+	<div>
+		<input type="checkbox" name='' id='muma'><label for="muma">木马</label>
+		<p>我爱你们</p>
+	</div>	
+
+	<div class='ganga'>
+		<p>111</p>
+		<p class='afei'>afei</p>
+		<p>3332</p>
+		<p>444</p>
+	</div>
+</body>
+</html>

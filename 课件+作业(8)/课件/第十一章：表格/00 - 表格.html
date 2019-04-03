@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+		<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+		<title>表格 - 木马老师</title>
+		<meta name="Keywords" content="关键词,关键词" />
+		<meta name="description" content="描述" />
+
+		<style type='text/css'>
+			*{margin:0;padding:0;}
+			a{text-decoration:none;}
+			ul{list-style:none;}
+
+			/*表格的样式初始化*/
+			table th,table td{padding:0;}
+			
+			table{width:500px;height:300px;margin:50px auto;
+				/*指定单元格边界之间水平和垂直间距 */
+				border-spacing:10px 20px;
+				/*单元格边框线合并*/
+				border-collapse:collapse;
+			}
+
+			th{height:80px;margin:20px;}
+			td{line-height:40px;/* width:100px; */}
+			.box{color:red;}
+		</style>
+	</head>
+<body>
+	<!--
+		表格
+			合并单元格 合并的是td
+
+		表格的特性：
+			1.单元格默认平分table的宽度
+			2.th 默认上下左右居中
+			3.td th 没有margin属性 
+			4.table决定了整个表格的宽度
+			5.当给了table宽度，但是没有给td宽度的时候  单元格的宽度会被转换成百分比
+			6.表格同一列/行会继承最大值； 
+			7.每一列必须有宽度 ！
+	-->
+	<table border='1'  width='' height=''>
+		<thead>
+			<tr>
+				<th colspan='5'>47期女装大佬统计表</th>
+			</tr>
+			<tr>
+				<td>姓名</td>
+				<td>年龄</td>
+				<td>性别</td>
+				<td>爱好</td>
+				<td>女装</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class='box'>信仰</td>
+				<td>30</td>
+				<td rowspan='2'>男</td>
+				<td>学习</td>
+				<td>是</td>
+			</tr>
+			<tr>
+				<td>编辑资料</td>
+				<td>18</td>
+				
+				<td>男</td>
+				<td>否</td>
+			</tr>
+			<tr>
+				<td>那个念想</td>
+				<td>16</td>
+				<td rowspan='3'>女</td>
+				<td>钢琴</td>
+				<td>是</td>
+			</tr>
+			<tr>
+				<td>淡鱼</td>
+				<td>18</td>	
+				<td>足球</td>
+				<td>是</td>
+			</tr>
+			<tr>
+				<td>阿乔</td>
+				<td>18</td>
+				<td>足球</td>
+				<td>是</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan='5'>备注：以上内容纯属扯淡！</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

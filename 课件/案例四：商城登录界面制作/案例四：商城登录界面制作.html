@@ -1,0 +1,73 @@
+<!doctype html><!--文档头信息：文档类型 HTML (H5标准)-->
+<html lang="en"><!--html根标签 -->
+<head><!--网页头部 开始-->	
+	 <meta charset="UTF-8"><!-- 字符编码:UTF-8 -->
+	 <meta name="Keywords" content="关键词 搜索引擎抓取">
+	 <meta name="Description" content="网站简介 描述">
+	 <title>登陆注册表单验证</title><!--网站标题-->
+<style>/*-- CSS样式 --*/ 
+
+	*{margin:0;padding:0;}
+	
+	/* 背景图片 盒子 */
+	#banner{width:100%;height:520px;background:url('images/bg.jpg') top/cover;}
+	#banner .box{width:340px;height:420px;background-color:#F5EAE9;float:right;margin-top:50px;margin-right:135px;}
+
+	/* 登录帐号、密码 */
+	#banner .box .LoginCon{padding:30px 40px;border-bottom:1px dotted #ccc;}
+	#banner .box .LoginCon .txt{width:255px;height:40px;border:1px solid #ddd;background-color:#F5EAE9;background-repeat:no-repeat;background-position:0 -2px;text-indent:50px;font-size:16px;margin-bottom:20px;}
+	#banner .box .LoginCon .accouts{background-image:url('images/zhanghao.jpg');}
+	#banner .box .LoginCon .psd{background-image:url('images/mima.jpg');}
+
+	/* 记住帐号、欢迎注册、忘记密码 */
+	#banner .box .LoginCon div.bigbox{width:255px;height:40px;/* border:1px solid red; */font-size:12px;line-height:40px;position:relative;margin-bottom:15px;}
+	#banner .box .LoginCon div.bigbox .C_psd{width:80px;height:100%;/* background:#fff; */text-indent:20px;float:left;}
+	#banner .box .LoginCon div.bigbox .C_psd .cBox{position:absolute;left:1px;top:15px;}
+	#banner .box .LoginCon div.bigbox .register{width:130px;height:40px;/* border:1px solid #fff; */float:left;}
+	#banner .box .LoginCon div.bigbox .register a{color:#666;text-decoration:none;margin-left:10px;}
+
+	/* 登录按钮 */
+	#banner .box .LoginCon .btn{width:255px;height:45px;background:url('images/but.jpg');border:none;cursor:pointer;}
+
+	/* 合作网站 */
+	#banner .box .intrCon{width:100%;height:45px;/* background:pink; */margin-top:20px;line-height:45px;text-indent:30px;}
+	#banner .box .intrCon img{margin-right:5px;}
+</style>
+</head>
+<body><!--网页主体:可视化区域 -->	
+
+	<!-- 背景图片 -->
+	<div id='banner'>
+
+		<div class="box">
+
+			<div class='LoginCon'>
+
+				<!-- 登录帐号、密码 --> 
+				<input type="text" class='txt accouts' placeholder='用户名/邮箱地址/手机号'/>
+				<input type="password" class='txt psd' placeholder='填写密码'/>
+				
+				<!-- 记住帐号、欢迎注册、忘记密码 -->
+				<div class='bigbox'>
+					<div class='C_psd'><input type="checkbox" class='cBox'/>记住帐号</div>
+					<div class='register'><a href='#'>欢迎注册</a><a href='#'>忘记密码</a></div>
+				</div>
+				
+				<!-- 登录按钮 -->
+				<input type='button' class='btn'>
+
+			</div>
+
+			<!-- 合作网站 -->
+			<div class="intrCon">合作网站账号登录：
+				<img src='images/weixin.png'/>
+				<img src='images/qqlogin.png'/>
+				<img src='images/taobao.png'/>
+			</div>
+
+
+		</div>
+	</div>
+
+</body>
+</html>
