@@ -7,19 +7,17 @@
         /*
                 浮动和inline-block的对比
 				相同点：
-
-				1.都支持横排显示
-				2.都支持宽高
-				3.都是默认内容撑开宽度
-				4.支持margin
-				5.但是不支持margin auto
+                    1.都支持横排显示
+                    2.都支持宽高
+                    3.都是默认内容撑开宽度
+                    4.支持margin
+                    5.但是不支持margin auto
 
 
 
 				不同点：
-
-				6.float脱离文档流  inline-block不脱离
-				7.浮动提升半级 inline-block中间会解析一个空格！
+                    6.float脱离文档流  inline-block不脱离
+                    7.浮动提升半级 inline-block中间会解析一个空格！
 			*/
         /*
 				哪里浮动 哪里清除！
@@ -35,18 +33,39 @@
 
 					4.after{}  时下主流
 			*/
-        .clearfix:after{content:'';display:block;clear:both;}
+        .clearfix::after{content:'';display:block;clear:both;}
         .clearfix{zoom:1;}/*兼容低版本IE*/
         /*
 				规定元素最大宽度是多少  最大只能到这么大
 				规定元素最小宽度是多少  最小只能到这么小
                 tilt插件  3D插件 百度搜索 第一个就是
 			*/
-        div{max-width:800px;min-width:400px;margin:auto;border:2px solid red;}
+        .box div{
+            width: 100px;
+            height: 100px;
+        }
+        .box .left{
+            float: left;
+            background-color: red;
+        }
+        .box .right{
+            float: right;
+
+            background-color: green;
+        }
+        .wrap{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
     </style>
 </head>
 <body>
-<div class="clearfix"></div>
+    <div class="box clearfix">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="wrap"></div>
 <!--
     文档流：
         普通情况下可见元素在页面中所占用的位置 说白了就是元素不添加任何样式的时候默认排列的方式 遵循最基本的元素排列的规则

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+     /*
+           img特性：
+                1.支持宽高
+                2.支持margin
+                3.横排显示
+
+                4.不支持margin auto
+                5.能设置text-align
+                6.能设置vertical-align
+     */
+     /*
+        vertical-align:;
+            middle:放在父元素中部
+            top:元素的顶端与一行中最高元素的顶端对齐
+            bottom:元素的底端与一行中最高元素的底端对齐
+                以上受line-height影响
+            text-bottom: 元素的底端与父元素字体的底端对齐
+            text-top: 元素的顶端与父元素字体的顶端对齐
+    
+                以上受line-height影响
+	    */
+     /*
+        盒子居中的方式
+            水平居中（text-align：center;）
+                这个属性在没有浮动的情况下，我们可以将其转换为inline/inline-block，
+                然后其父元素加上text-align:center;属性就可以将其居中
+                    子元素: display:inline/inline-block;
+                    父元素加上text-align:center
+            display:block;  margin: auto;
+            2: position: absolute; top:-50%;margin-top:-高度的一半;
+            水平垂直居中（二）  子元素相对于父元素绝对定位，并且margin值位auto
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top:0;
+                margin: auto;
+           5、水平垂直居中（三）  diplay：table-cell
+              父元素:
+                display: table-cell;
+                vertical-align: middle;
+                子元素
+                    margin:0 auto;
+           6、水平垂直居中（四） 绝对定位和transfrom(原理和第二条差不多)
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+           7:水平垂直居中（五）css3中的flex属性
+                父元素
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        cursor: pointer; 鼠标变手指
+
+        /*
+				opacity:
+					透明度 0-1
+					父子一起透明
+				filter:alpha(opacity=50); 滤镜 0-100   前面相呼应
+				rgba 父透子不透
+		*/
+    #box{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        background-color: green;
+        line-height: 300px;
+        color:red;
+        opacity: 0.5;
+    } 
+    </style>
+</head>
+<body>
+    <div id="box">
+        你好
+    </div>
+    <script>
+    
+    </script>
+</body>
+</html>

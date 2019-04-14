@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+        * 1: 样式初始化
+        *     *代表通配符选择器 页面中所有的元素
+        *     *{margin:0;padding:0;}
+        *     多元素选择器 同时选择多个元素
+        *         body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+        *         ul,ol{margin:0;padding:0;list-style:none;}
+        *         a{text-decoration:none;}
+        *         img{border:none;}
+
+        * 2: 元素类型
+        *       块级元素：
+        *           1.自动换行
+        *           2.支持宽高
+        *           3.默认占据一行
+        *           4.可以套任何内容(p标签除外)
+        *           5.支持margin 和 padding
+        *           常见的块级元素：
+        *               div p table h1-h6 ul li form
+        *           p标签不能套块级
+        *       行内元素:
+        *           不自动换行
+        *           不支持宽高
+        *           margin  支持左右  不支持上下
+        *           padding 支持左右  不支持上下  只对自身有效果
+        *           行内元素不能嵌套块级元素
+        *           常见的行内元素:
+        *               a span i del b margin: auto;要将元素变为block才会生效
+
+        * 3: 元素类型的转换
+        *       display:block; 将元素转换成块级元素
+        *       display:inline; 转换成行内元素
+        *       display:none;  隐藏元素
+                设置为display:none;的元素将不会再占用页面空间，其占用的空间会被其他元素所占有，
+                从而会引起浏览器的重排和重汇。
+                visibility: hidden
+                    该元素仍会占用页面空间，因此只会导致浏览器的重汇而不会引起重排
+                    如果希望元素隐藏后不会引起页面布局的变化，则推荐使用visibility:hidden;方式。
+        *       display:inline-block;行内块级元素
+        *           以行内样式的形式排列(不会独占一行)  以块级元素的样式显示！
+                opacity:0
+                    在呈现上与visibility:hidden;方式一样，同样会占据页面空间。
+
+        * 4: 外边距合并现象
+        *       当两个盒子之间没有内边距或边框分开始，
+        *       给里面的盒子加上外边距，会自动把外边距合并到外面的盒子上
+        *           解决方法：
+        *               加边框 给父级加
+        *               用padding 给父级加
+        *               overflow:hidden; 给父级加
+        * 5:
+            差异性-事件绑定
+            display:none;的元素会直接从页面上消失，因此在该元素上绑定的事件不会生效。
+            display:none;的元素会直接从页面消失，因此定义transition效果完全无效。
+            visibility: hidden;的元素不会触发绑定的事件。
+            visibility:hidden;的元素会在transition设置的时间内消失，但是没有动画效果。
+            opacity:0; 的元素会触发绑定的事件，例如点击会触发click函数。
+            opacity:0;的元素可以和正常元素一样，从页面以动画效果消失。
+*/
+        #box{
+            visibility: hidden;
+            width: 48px;
+            height: 100px;
+            background-color:red;
+        }
+        #wrap{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    
+</div>
+<div id="wrap">
+    
+</div>
+<script>
+
+</script>
+</body>
+</html>
