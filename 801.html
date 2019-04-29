@@ -8,9 +8,12 @@
     * 选择器高级
     *   > 子元素选择器：选择div的直接子元素span,不包含孙子
     *       div > span{font-size:30px;color:red;}
-    *       div span{}  选择 div下面的所有span元素
+    *       div span{}  选择 div下面的所有span元素  后代选择器 选择所有后代元素
     *   选择紧跟p元素后面的同级元素 span
     *       div p + p{font-size:100px;color:orange;}
+            ul li+li 选择除了第一个li的所有li标签
+        多元素选择器
+            p,div,span{}
     *   属性选择器
     *       匹配所有具有class属性的元素
     *           [class]{font-size:50px;}

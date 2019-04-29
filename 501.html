@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+            选择器的优先级
+                id > class > 标签 > * > 继承 >
+                优先级相同的后面的覆盖前面的样式
+                1: id个数不相等,id多的样式优先级高,后面的就不用比了
+                2: id个数相等, 就比 class一次类推
+        */
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: #f60;
+            /*两个值 左上右下 右上 左下 对称的*/
+            border-radius: 20px 20px;
+            /*三个值 左上 右上坐下 右下*/
+            /*四个值 左上 右上 右下 左下*/
+            /*高度的一半就可以变成跑道形状*/
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background: pink;
+            /*
+                盒子阴影
+                    第一个值表示水平平移多少;
+                    第二个值表示垂直方向平移多少
+                    第三个值表示阴影的大小 模糊半径
+                    第四个值 表示阴影的颜色
+                    第五个值 外部阴影 outset(默认)  out 内部阴影 inset
+                    可以写多个
+                overflow:hidden; 超出隐藏
+                    overflow:scroll;  超出出现滚动条;
+                    overflow:auto;    根据内容决定,超出就出现滚动条
+            */
+            box-shadow: 0 0 3px black,0 0 3px black;
+        }
+        p{
+            /*文本阴影 */
+            text-shadow: 10px 10px 8px #f60;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+</div>
+<div class="box1"></div>
+<p>罗恒,你真的是没救了</p>
+<script>
+
+</script>
+</body>
+</html>
