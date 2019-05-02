@@ -6,7 +6,7 @@
     <style>
         /*
 				相对定位
-
+                position:relteve;
 					相对于没有定位之前的位置进行位移  参照物
 					px
 					%  相对于父级   当父级么有高度的  百分比不起作用
@@ -55,10 +55,21 @@
             只对定位元素有效
 
         */
+        #box{
+            position: relative;
+            top:50px;
+            left:50px;
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            border:1px solid red;
+        }
     </style>
 </head>
 <body>
-    <div></div>
+    <div id="box">
+        <div></div>
+    </div>
 <script>
 
 </script>

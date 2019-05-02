@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        textarea{
+            resize:none;
+        }
+        #inp:focus{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        表单 form
+            action: 规定提交到后台的网址;
+            method: 如何提交;
+                get: 会直接在地址栏显示提交的表单数据
+                post: 会隐藏提交的表单数据  分段传输 解码
+                    对安全性有要求就用这个
+            target="_blank";
+                如何打开这个页面
+            name 名字 可以用来获取元素节点
+            type属性规定用户输入的
+                1: text: 文本框 value="请输入用户名" placeholder="请输入用户名"
+                2: password: 密码框
+                3: radio: 单选按钮
+                4: checkbox: 复选框
+    -->
+    <form action="https://www.baidu.com" method="get" target="_blank">
+        用户名: <input type="text" placeholder="请输入用户名" id="inp"><br>
+        密码:<input type="password"><br>
+        <div>
+            <!--
+                checked="checked" 默认选中
+                单选按钮name属性相同表示为一组
+                label为了提高用户体验 ,点击男也可以选中单选按钮
+                    for里面的内容就是 前面id的值
+                disabled 不能被选中 金庸吧
+            -->
+            性别:<input type="radio" name="sex" id="man" checked="checked"><label for="man">男</label>
+            <input type="radio" name="sex" id="woman" ><label for="woman">女</label>
+            <input type="radio" name="sex" id="other" disabled><label for="other">保密</label>
+        </div>
+        <div>
+            你喜欢吃什么水果<br>
+            <label for="ban">香蕉</label><input type="checkbox" id="ban">
+            <label for="app">苹果</label><input type="checkbox" id="app">
+            <label for="xigua">西瓜</label><input type="checkbox" id="xigua">
+            <label for="putao">葡萄</label><input type="checkbox" id="putao">
+        </div>
+        <input type="search"><br>
+        <!-- submit 提交按钮-->
+        <input type="submit">
+        <!--reset 重置按钮 清空所有表单内容-->
+        <input type="reset">
+        <!-- 按钮 -->
+        <input type="button" value="点击一下你就知道">
+        <!--后台上传参数 不需要用户看到的 隐藏 在页面不占位置 后台需要-->
+        <input type="hidden" value="">
+        <!-- 图片按钮 -->
+        <input type="image" src="7.png"><br>
+        <!--文件上传按钮 浏览器自带的-->
+        <input type="file" value="选择文件"><br>
+        <!--文本域 可以拉大拉小
+            textarea{
+                resize:none; 规定不然拉大拉小
+            }
+        -->
+        <textarea  name="" id="" cols="30" rows="10">
+            1:罗恒
+            2: 范雨菲
+        </textarea>
+        <!--
+        下拉选框
+            size=3: 表示默认显示几行数据
+            selected="selected": 默认选中
+        -->
+        出生年月
+        <select name="" id="">
+            <option value="">1990</option>
+            <option selected="selected" value="">1991</option>
+            <option value="">1992</option>
+            <option value="">1993</option>
+            <option value="">1994</option>
+            <option value="">1995</option>
+        </select>
+        <!--
+            表单分类
+        -->
+        <fieldset>
+            <legend>定义标题</legend>
+        </fieldset>
+        <!--
+            focus伪类
+            input:focus {} 获得焦点时触发
+        -->
+    </form>
+<script>
+
+</script>
+</body>
+</html>

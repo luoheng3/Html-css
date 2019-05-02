@@ -7,7 +7,10 @@
         /*表格的样式初始化*/
         table th,table td{padding:0;}
 
-        table{width:500px;height:300px;margin:50px auto;
+        table{
+            width:500px;
+            height:300px;
+            margin:50px auto;
             /*指定单元格边界之间水平和垂直间距 */
             border-spacing:10px 20px;
             /*单元格边框线合并*/
@@ -20,6 +23,11 @@
     </style>
 </head>
 <body>
+<!--
+    border=1: 表示表格边框线大小为1px
+    colspan='5' 表示单元格合并
+    rowspan='2' 同理
+-->
 <table border='1'>
     <thead>
         <tr>
@@ -44,8 +52,7 @@
         <tr>
             <td>编辑资料</td>
             <td>18</td>
-
-            <td>男</td>
+            <td>打炮</td>
             <td>否</td>
         </tr>
         <tr>
@@ -80,6 +87,17 @@
 			5.当给了table宽度，但是没有给td宽度的时候  单元格的宽度会被转换成百分比
 			6.表格同一列/行会继承最大值；
 			7.每一列必须有宽度 ！
+
+		display:
+		table    此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。
+        table-row-group    此元素会作为一个或多个行的分组来显示（类似 <tbody>）。
+        table-header-group    此元素会作为一个或多个行的分组来显示（类似 <thead>）。
+        table-footer-group    此元素会作为一个或多个行的分组来显示（类似 <tfoot>）。
+        table-row    此元素会作为一个表格行显示（类似 <tr>）。
+        table-column-group    此元素会作为一个或多个列的分组来显示（类似 <colgroup>）。
+        table-column    此元素会作为一个单元格列显示（类似 <col>）
+        table-cell    此元素会作为一个表格单元格显示（类似 <td> 和 <th>）
+        table-caption    此元素会作为一个表格标题显示（类似 <caption>）
 	-->
 <script>
 
