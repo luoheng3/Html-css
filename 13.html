@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+
         /*
             H：Hue(色调)。0(或	360)表示红色，120表示绿色，240示蓝色，也可取其他数值来指定颜色。取值为：0 – 360
 
@@ -88,6 +89,69 @@
             background:url('images/3.png') no-repeat,url('images/1.jpg') no-repeat 50px center/500px 500px content-box content-box fixed #666;
         }
     -->
+    <!--
+        background-clip    背景显示区域的裁剪
+			border-box    从边框区域外裁剪背景
+			padding-box   从内边距区域外裁剪背景
+			content-box   从内容区域外裁剪背景
+
+		background-origin   设置背景定位的原点
+			border-box      以边框的左上角为原点
+			padding-box     以内边距的左上角为原点
+			content-box     以内容区域的左上角为原点
+
+        渐变生成的是一张图片
+		linear-gradient   线性渐变
+			标准写法
+			渐变的角度   默认值：180deg  /  to bottom
+				deg
+				to是去、到的意思
+				to top     0deg
+				to bttom   180deg
+				to left    -90deg/270deg
+				to right   90deg
+				to left top
+				顺时针旋转
+
+			前缀写法  默认值-90deg  逆时针
+				不能加to，角度表示开始的起点
+				top     -90deg
+				bttom   90deg
+				left    0deg
+				right   180deg
+				left top
+			前缀写法写前面，标准写法写最后面
+
+			repeating-linear-gradient  重复线性渐变
+
+        radial-gradient   径向渐变
+			形状
+				circle   正圆
+				ellipse   椭圆   默认值
+			大小
+				closest-corner    圆心到最近的角为半径
+				closest-side      圆心到最近的边为半径
+				farthest-corner   圆心到最远的角为半径
+				farthest-side     默认值，圆心到最远的边为半径
+			圆心位置 at
+				x     y
+				center  center
+				left
+				方位值
+
+			repeating-radial-gradient   重复径向渐变
+
+        box-reflect
+			位置
+				above   上
+				right   右
+				below   下
+				left    左边
+
+			距离
+			遮罩的图片
+    -->
+
 <div id="box">
 
 </div>

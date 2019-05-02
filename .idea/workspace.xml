@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc8076e-bdc4-40ff-9a47-fa62e6dd70b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/091.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h51.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12.html" afterPath="$PROJECT_DIR$/h52.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07.html" afterPath="$PROJECT_DIR$/07.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08.html" afterPath="$PROJECT_DIR$/08.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09.html" afterPath="$PROJECT_DIR$/09.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10.html" afterPath="$PROJECT_DIR$/10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.html" afterPath="$PROJECT_DIR$/13.html" />
     </list>
     <ignored path="Html-css.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,18 +28,18 @@
       <file leaf-file-name="001.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/001.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="113">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="901.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/901.html">
+      <file leaf-file-name="07.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+            <state relative-caret-position="33">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -54,8 +48,18 @@
       <file leaf-file-name="09.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
+            <state relative-caret-position="506">
               <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -64,18 +68,8 @@
       <file leaf-file-name="08.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
+            <state relative-caret-position="594">
               <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-429">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -91,11 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h5标签简介.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5标签简介.html">
+      <file leaf-file-name="15.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-891">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="091.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/091.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,28 +108,18 @@
       <file leaf-file-name="h51.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/h51.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="1089">
               <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h52.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="h52.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/h52.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="264">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2628">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -161,7 +155,6 @@
         <option value="$PROJECT_DIR$/课件+作业(11)/课件/h5第一章：html5/01 - 结构标签.html" />
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/课件+作业(13)/课件/h5第三章：背景和文本属性/02 - 新增颜色属性.html" />
-        <option value="$PROJECT_DIR$/13.html" />
         <option value="$PROJECT_DIR$/14.html" />
         <option value="$PROJECT_DIR$/101html常用标签.html" />
         <option value="$PROJECT_DIR$/301.html" />
@@ -179,6 +172,8 @@
         <option value="$PROJECT_DIR$/09.html" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/10.html" />
+        <option value="$PROJECT_DIR$/15.html" />
+        <option value="$PROJECT_DIR$/13.html" />
       </list>
     </option>
   </component>
@@ -188,8 +183,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-58" />
-    <option name="y" value="10" />
+    <option name="x" value="44" />
+    <option name="y" value="13" />
     <option name="width" value="1335" />
     <option name="height" value="734" />
   </component>
@@ -218,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +234,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -335,17 +330,18 @@
       <workItem from="1556452717029" duration="7681000" />
       <workItem from="1556533111372" duration="8909000" />
       <workItem from="1556673729394" duration="13581000" />
+      <workItem from="1556784998860" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70682000" />
+    <option name="totallyTimeSpent" value="72805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-58" y="10" width="1335" height="734" extended-state="0" />
-    <editor active="true" />
+    <frame x="44" y="13" width="1335" height="734" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15188898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09560524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -397,14 +393,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/课件+作业(10)/课件/第十四章：阿里图标和css高级/03 - 组件化开发.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(10)/课件/第十四章：阿里图标和css高级/04 - unicode.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(10)/课件/第十四章：阿里图标和css高级/05 - fontclass .html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(10)/课件/第十四章：阿里图标和css高级/06 - symbol.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(11)/课件/h5第一章：html5/00 - html5浏览器兼容.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(11)/课件/h5第一章：html5/01 - 结构标签.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(11)/课件/h5第一章：html5/02 - 特殊结构标签.html" />
-    <entry file="file://$PROJECT_DIR$/课件+作业(11)/课件/h5第一章：html5/03 - IE低版本兼容.html" />
     <entry file="file://$PROJECT_DIR$/课件+作业(12)/课件/h5第二章：新增选择器/00 - 选择器复习.html" />
     <entry file="file://$PROJECT_DIR$/课件+作业(12)/课件/h5第二章：新增选择器/01 - 新增选择器.html" />
     <entry file="file://$PROJECT_DIR$/课件+作业(12)/课件/h5第二章：新增选择器/02 - 新增伪类选择器.html" />
@@ -425,27 +413,6 @@
     <entry file="file://$PROJECT_DIR$/课件/h5第六章：响应式和移动端适配/rem适配/index.html" />
     <entry file="file://$PROJECT_DIR$/课件/h5第六章：响应式和移动端适配/移动端适配.html" />
     <entry file="file://$PROJECT_DIR$/课件/h5弹性盒模型/00 - 补充.html" />
-    <entry file="file://$PROJECT_DIR$/301.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/401.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -471,6 +438,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/701.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/801.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5标签简介.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -483,26 +471,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/301.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/401.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/901.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2739">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 导航框架/01-title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 导航框架/02-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 导航框架/03-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 导航框架/04-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 导航框架/00-frameset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/00 - 内联框架 .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十三章：框架/01 - 框架集.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/091.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
+        <state relative-caret-position="506">
           <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/701.html">
+    <entry file="file://$PROJECT_DIR$/h51.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="1089">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/801.html">
+    <entry file="file://$PROJECT_DIR$/h52.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -517,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
+        <state relative-caret-position="594">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
@@ -525,48 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h5标签简介.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h51.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/901.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -581,24 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2628">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h52.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="759">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
           <folding />
         </state>
       </provider>
