@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 200px;
+            height: 300px;
+            background: red url("../7.png") no-repeat top/contain;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        背景 background
+            问题: 什么时候用img,什么时候用背景图片;
+                1: 经常更换,或者用于展示信息的 用 img
+                2: 不经常更换,或者用于装饰的用背景图片
+
+            1: background-color: #ccc;  背景颜色;
+
+            2: background-image: url("./1.jpg");  背景图片 jpg png gif webp
+                颜色的表示法:
+                    1: #fff; 十六进制
+                    2: red;  单词
+                    3: rgb(0,0,0);
+                    4: rgba(0,0,0,.5) ;  透明度 1表示透明  0透明
+
+            3: background-repeat: no-repeat;  不平铺 repeat-x; repeat-y;
+                前端的坐标系
+                    水平向右为正x轴;
+                    竖直向下为正y轴;
+                    垂直于屏幕的为z轴;
+
+            4: background-position: 20px 20px;
+                位置是一个相对位置,一定是有一个参照物的;
+                参照物在盒子的左顶点;
+                    可以用百分比;
+                    相对于大盒子宽度减去-图片的宽度
+                        0% 左对齐;   left right center top bottom
+                        50%; 居中 center
+                        100%; 右对齐;
+                    第二个参数 如果省略  默认auto自适应
+
+            5: background-size: 100px 200px; 背景图片大小;
+                    百分比: 参照的是盒子的宽高;
+                    第二个参数 如果省略  默认auto自适应
+                    cover: 覆盖就是 图片会和盒子重合
+                    contain: 等比缩放到一边到盒子边界;
+
+            6: background-attachment: fixed;  背景关联;  固定定位;
+
+            7: background-origin: border-box; content-box;  padding-box;
+
+            8: background-clip:content-box;
+
+            复合属性:
+                background: red url("../7.png") no-repeat fixed 100px 100px/cover;
+    -->
+<div id="box">
+
+</div>
+<script>
+
+</script>
+</body>
+</html>

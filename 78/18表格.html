@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #tab{
+            border-collapse: collapse;  /*单元格合并*/
+            border-spacing: 5px;       /*单元格之间的间隙*/
+            text-align: center;
+        }
+        th,td{
+            width: 60px;
+            height: 30px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        表格
+            tabel: 表的整体
+            thead: 表头
+                    caption标签: 标题
+            tbody: 表的主题内容
+                    行是表的主要内容  tr
+                        第一个tr 下面 th
+                        第二个 tr 下面  td
+            tfoot: 表尾
+
+    -->
+    <table id="tab" border="1">
+        <thead>
+            <caption>
+                高二六班期末成绩表
+            </caption>
+        </thead>
+        <tbody>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>语文</th>
+                <th>数学</th>
+            </tr>
+            <tr>
+                <td>罗恒</td>
+                <!-- rowspan="2" 纵向单元格合并2个-->
+                <td rowspan="2">男</td>
+                <td>24</td>
+                <!-- colspan="2" 横向向单元格合并2个-->
+                <td colspan="2">112</td>
+            </tr>
+            <tr>
+                <td>罗恒</td>
+                <td>男</td>
+                <td>24</td>
+                <td>112</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+<script>
+
+</script>
+</body>
+</html>

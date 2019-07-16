@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--
+        元素分为块级元素和行内元素
+        2: 元素类型
+        *       块级元素：
+        *           1.自动换行
+        *           2.支持宽高
+        *           3.默认占据一行
+        *           4.可以套任何内容(p标签除外)
+        *           5.支持margin 和 padding
+        *           常见的块级元素：
+        *               div p table h1-h6 ul li form
+        *           p标签不能套块级
+
+        *       行内元素:
+        *           不自动换行
+        *           不支持宽高 (img除外)
+        *           margin  支持左右  不支持上下
+        *           padding 支持左右  支持上下  只对自身有效果
+        *           行内元素不能嵌套块级元素
+        *           常见的行内元素: 会解析空格
+        *               img a span i del b label margin: auto;要将元素变为block才会生效
+                        a标签可以嵌套块级标签
+
+        * 3: 元素类型的转换
+        *       display:block; 将元素转换成块级元素
+        *       display:inline; 转换成行内元素
+        *       display:none;  隐藏元素
+                设置为display:none;的元素将不会再占用页面空间，其占用的空间会被其他元素所占有，
+                从而会引起浏览器的重排和重汇。
+                visibility: hidden
+                    该元素仍会占用页面空间，因此只会导致浏览器的重汇而不会引起重排
+                    如果希望元素隐藏后不会引起页面布局的变化，则推荐使用visibility:hidden;方式。
+        *       display:inline-block;行内块级元素
+        *           以行内样式的形式排列(不会独占一行)  以块级元素的样式显示！
+                opacity:0
+                    在呈现上与visibility:hidden;方式一样，同样会占据页面空间。
+
+    -->
+<div id="box">
+
+</div>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+        引入字体文件
+            @font-face{
+                font-family: "小庄体";
+                src: url("./1.ttf");  字体引入
+            }
+        */
+        #box{
+            font-weight: bold;
+            font-style: italic;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        文字相关属性
+            font-family: "微软雅黑","宋体";  字体样式 小心字体侵权(方正)
+
+            font-size: 16px;   字体大小
+                font相关属性是会继承的
+                em: 相对于父元素字体大小
+                百分比: 也是一样的
+                rem: 相对于根标签 html字体大小
+                vw/vh : 可视区域宽度100vw
+
+            font-weight: light bold ; 字体粗细 100-900 的整百数
+
+            color: red;   文字颜色;
+
+            font-style: italic normal ;  字体风格;
+
+            line-height: 30px;
+                两行文字之间的距离叫行间距(没办法改变)
+                基线: 两行文字的基线的距离
+                中文环境下,英语字母x脚踩的线叫基线,两行文字x脚踩的线的距离
+                这段距离叫行高
+                行间距 + 文字的大小(固定)  = 行高
+                让文字垂直居中 (让行高等于盒子的高度就行了)
+                可以被继承
+
+            文本属性:
+                text-transform: uppercase 字母大写 lowercase 字母小写 capitalize 首字母大写
+                text-align: center left right justify (两端对齐);  文本对齐方式
+                text-indent: 2em;    首行缩进
+                text-decoration: overline 上划线 underline 下划线  line-through 中划线 none 没有
+                white-space: 文本换行方式  nowrap 不换行
+                word-break: break-all; 会强制拆分单词;
+                ...
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+    -->
+    <div id="box">
+        <a href="">baidu</a>
+    </div>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--
+        img的相关问题:
+            1: img的空格问题
+            2: img标签的下方是有空隙的
+            3: 水平方向 是因为解析空格  解决  font-size:0; 或者 display:block;
+                竖直方向有间隙,是因为img标签被当做文字来解析 ,但是并不是和文字最低端对齐的,所以下面有
+                间隙,基线对齐;
+
+        基线: 字母x下面的线,针对于英文;
+            图片的水平有间隙是因为 行内元素解析空格
+            图片的竖直间隙是因为 基线对齐与底线之间的间距
+                vertical-align: 行的top middle 行的bottom baseline 基线对齐默认的
+                    text-bottom文本底部 可以使用像素值:1px自行调节大小;
+    -->
+    <div id="box">
+
+    </div>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 400px;
+            margin: auto;
+            border: 1px solid red;
+        }
+        #box img{
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        .box{
+            width: 400px;
+            height: 300px;
+            background-color: #f60;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        普通流布局:
+            从上到下,从左到右,块级盒子独占一行,不写宽度,默认继承父级
+            让块级元素变成从左到右的排列方式
+                1: display: inline-block;
+                    让盒子与文本在一起排列显示的工具
+
+                    缺点:
+                        1: 会解析空格,解决给父级 字体大小为0;
+                        2: 基线,有时候没对齐,还要设置 vertical-align: center;
+                            所以页面布局一般不推荐;
+
+                2: 浮动: 为了解决文字环绕而出现的东西(文字环绕元素来进行排列)
+                        一个图片就相当于一个字,只不过这个字有宽高,比较大而已;
+
+                        平面上的盒子元素:
+                        浏览器中: 三维的元素
+                            各个层级
+                            背景(最低,在最下面) => 块级元素的层级 => 浮动层 == inline inline-block
+                    float: left right;
+                        清除浮动:
+                            .clearfix::after{
+                                content: "";
+                                display: block;
+                                clear: both;
+                            }
+    -->
+    <div id="box">
+        <img src="../7.png" alt="">
+        <p>罗恒是个大傻瓜罗恒罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜
+        罗恒是个大傻瓜罗恒是个大傻瓜是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜
+        罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜罗恒是个大傻瓜</p>
+        <div class="box"></div>
+    </div>
+<script>
+
+</script>
+</body>
+</html>

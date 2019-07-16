@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            border: 3px solid red;
+            border-bottom-style: dotted;
+        }
+        p{
+            /* 三角形 */
+            width: 0;
+            border: 10px solid transparent;;
+            border-right-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        1: border  盒子边框
+            复合写法:
+                border: 1px solid red;
+                    solid: 实线
+                    dotted: 点状线
+                    double: 双实线
+            单样式:
+                border-width: 5px;  盒子边框大小;
+                border-bottom-width: 盒子底部宽度
+
+                border-color: red;  默认颜色与里面文字颜色保持一致
+                border-bottom-color: red;
+
+                border-style: dotted;
+                border-bottom-style: dotted;
+
+        2: margin  外边距
+
+            margin: 10px; 一个值
+            margin: 10px 40px; 表示 上下间距为10px 左右间距为 40px
+            margin: 10px 20px 30px; 表示上面间距 10px 左右间距20px 下面 30px;
+            margin: 10px 20px 30px 40px;  依次表示上右下左;
+            单样式写法:
+                margin-top,margin-left,margin-right,margin-bottom
+
+            垂直外边距合并:
+                如果两个盒子的外边距接触到了一起,那么外边距会发生合并,并且大的外边距会生效;
+                    盒子的层级:
+                        普通流 => float => inline-block => 定位 absolute;
+                解决办法:
+                    1: 给父级加 overflow: hidden;
+                    2: 加border
+                    3: 加padding;
+
+        3: padding  内边距
+            同上: 开发中尽量使用内边距,少用外边距;
+
+        4:
+            普通盒模型:
+                盒子实际大小 = 2*border + 2*padding + width/height;
+            怪异盒模型
+                box-sizing: border-box;
+                怪异盒模型; 让盒子等于实际写的大小,不受内边距边框影响;
+
+    -->
+<div id="box">
+
+</div>
+    <p></p>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #box::before{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        #box::after{
+            content:"";
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: #f60;
+            margin-top:100px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        伪元素: 清除浮动经常用到
+            在html结构中不存在
+            #box::before{
+                content:"";
+                display:block;
+                clear:both;
+            }
+            #box::after{}
+            当他定位的时候 他的父亲就是当前元素;
+            什么样的元素才具有伪元素
+                双标签才可以创建伪元素
+
+            @charset "utf-8";   这是写在外部css文件中的第一行
+    -->
+<div id="box">
+
+</div>
+<script>
+
+</script>
+</body>
+</html>

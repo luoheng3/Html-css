@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #ccc;
+        }
+        #box{
+            width: 300px;
+            height: 300px;
+            background:linear-gradient(transparent 10%,black 10%,black 20%,transparent 20%),
+                        linear-gradient(to right,transparent 10%,red 10%,red 20%,transparent 20%);
+        }
+        #wrap{
+            width: 500px;
+            height: 300px;
+            background: radial-gradient(circle at 50% 50% ,black 20px,red 20px,red 40px,green 60px,green 80px,blue 100px,blue 120px,pink 120px,pink 140px);
+        }
+    </style>
+</head>
+<body>
+    <!--
+        渐变
+            background: linear-gradient();  线性渐变
+                        linear-gradient(red,blue,pink); 默认从上到下 均匀分布
+                        linear-gradient(red 10%,blue 30%,pink);规定各个颜色的百分比;
+                        linear-gradient(to left,red,blue 30%,pink); 规定方向
+                        linear-gradient(0deg,red,blue 30%,pink);
+                            0deg是朝上的 = to top: 按照顺时针旋转一定的角度;
+
+            径向渐变: 从每个点开始向四周颜色均匀变化
+                radial-gradient(black 50px,red 50px,red 80px,black 80px,black 90px,red 90px);
+                这句代码的意思是 从0到50px是 黑色;
+                在50px处是红色;
+                50px 到 80px 是红色;;
+                80px处黑色;
+                80px 到 90 px也是黑色;
+                90px变为红色;
+                    默认是圆形,还有椭圆
+                    radial-gradient(circle at 100px 100px,red,green) 圆心坐标
+                    椭圆: ellipse 圆心坐标 长轴的长度  短轴的长度
+                        radial-gradient(ellipse 60px 100px at center,red 60px,black 80px)
+                            长轴与短轴的宽高比例关系
+
+    -->
+    <div id="box">
+
+    </div>
+    <div id="wrap">
+
+    </div>
+<script>
+
+</script>
+</body>
+</html>

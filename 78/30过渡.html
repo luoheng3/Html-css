@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            /*移入没有过渡,移出有过度效果*/
+            transition-duration: 0.5s;
+        }
+        #box:hover{
+            width: 200px;
+            transition-duration: 0s;
+            transition-timing-function: ;
+        }
+        .box{
+            position: absolute;
+            top:100px;
+            left:0;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            animation: play 2s linear 2s 3 alternate;
+        }
+        @keyframes play {
+            0%{
+                left:100px;
+            }
+            50%{
+                left: 300px;
+            }
+            100%{
+                left: 400px;
+            }
+        }
+        .wrap{
+            width: 100px;
+            height: 100px;
+            margin-top:200px;
+            background-color: #ccc;
+            box-shadow:5px 5px 10px red inset;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        过渡:  背景图片也可以进行过渡
+            transition:width 2s ease-in 3s,height 6s;
+                1: 表示需要过渡的属性;
+                2: 表示过渡的时间;
+                3: 表示延迟过渡的时间
+                4: 过渡的快慢; linear 匀速 ease 慢 快 慢
+                    ease-in 匀加速 ease-out 匀减速 ease-in-out 先加速后减速 贝塞尔曲线
+
+        动画: animation: play 2s linear 2s infinite alternate;
+            1: 动画名字;
+            2: 动画执行时间
+            3: 动画的运动曲线
+            4: 动画是否延迟
+            5: 动画执行的次数
+            6: 动画是否往返
+            animation-play-state: paused 暂停 running 继续
+            animation-fill-mode:forwards; 表示动画运动完成后,停留在最后一针;
+
+        盒子阴影:
+            box-shadow:5px 5px 10px red inset;
+                1: x轴偏移量;
+                2: y轴偏移量;
+                3: 模糊度,数值越大越模糊
+                4: 颜色
+                5: inset 内阴影
+    -->
+<div id="box">
+
+</div>
+    <div class="box"></div>
+    <div class="wrap"></div>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            padding: 0;
+            outline: none;
+        }
+        .contain:focus-within{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        表单
+            前端: 和用户交互, 提供服务 收集数据
+            后台: 逻辑处理 返回
+    -->
+    <!--  action: 添加服务器的地址 -->
+    <!--  methods: get获取信息 post 发送信息 没有本质区别的 -->
+    <!-- value 存储着表单的内容 或者值 -->
+    <form action="https://www.baidu.com" method="get" target="_self">
+        <!--
+            文本框 一定要有name 和 value 属性,不然提交到后台将毫无意义
+            required属性  必填内容
+            当提交的时候 页面会发生跳转
+         -->
+        用户名: <input style="text-indent: 1em;" type="text" name="user" placeholder="请输入你的用户名"><br>
+        密码: <input type="password" name="password" required><br>
+        性别: 男   <input checked type="radio" name="sex" value="男">
+        女         <input name= "sex" type="radio" value="女">
+        保密      <input name= "sex" type="radio" value="保密"><br>
+        最喜欢的水果: 香蕉 <input type="checkbox" name="shuiguo" value="ban" checked>
+        葡萄 <input type="checkbox" name="shuiguo" value="putao">
+        苹果 <input type="checkbox" name="shuiguo" value="apple">
+        西瓜 <input type="checkbox" name="shuiguo" value="melon"><br>
+        <input type="file" id="box">
+        <label for="box">点击我就等于关联的那个</label>
+        <input type="reset">
+        <input type="button">
+        <input type="submit" value="提交按钮">
+        <button>提交</button>
+        <!-- 下拉选框 -->
+        <select name="choose" id="">
+            <option value="A">四川省</option>
+            <option value="B">广东省</option>
+            <option value="C">重庆</option>
+            <option value="D">云南省</option>
+        </select>
+
+        <!-- 文本域 -->
+        <textarea style="resize: none" name="" id="" cols="30" rows="10">
+            我爱你范雨菲
+        </textarea>
+        <!-- fieldset 将表单信息分门别类 划分开 -->
+        <fieldset>
+            <legend>未满18不能看</legend>
+        </fieldset>
+        <!-- datalist 他是前端创造的HTML数据 会被 input使用 并不会在页面显示
+            写上 id 通过 list=id值  将其引用;
+        -->
+        <datalist id="data1">
+            <option value="A">第一条数据</option>
+            <option value="B">第二条数据</option>
+            <option value="C">第三条数据</option>
+            <option value="D">第四条数据</option>
+        </datalist>
+        <input type="text" list="data1">
+
+        <!--
+            input中常用的css选择器
+                :focus 选中的时候
+                只有能产生焦点的元素才会生效
+                :focus-within 子元素发生改变 可以让父元素改变样式
+                    .contain:focus-within{
+                        border: 1px solid red;
+                    }
+        -->
+        <div class="contain">
+            <input type="text">
+        </div>
+    </form>
+<script>
+
+</script>
+</body>
+</html>

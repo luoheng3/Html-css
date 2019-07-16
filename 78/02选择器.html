@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+       #box p~span{
+           color: red;
+       }
+    </style>
+</head>
+<body>
+    <!--
+        盒子模型:
+            最小影响法则: 高度为0; 宽度默认继承父级 无色透明的;
+            像素: 红色 绿色 蓝色,组合在一起;
+            style: 设置行内样式
+
+            选择器:
+                id选择器,页面唯一
+                class选择器, 可以多个 描述相似物体 .red .fs12
+                div  标签选择器
+                补充:
+                    .w100:  表示所有 类名为w100的盒子
+                    div.w100:  表示所有类名为w100标签名为div的盒子;  更加精准
+                    .w100.red  表示选择所有class类名为w100和red的盒子
+
+                    #box div: 后代选择器
+                        选择 #box后面的所有div元素
+                    #box>div: 儿子选择器
+                        只会选择 #box的儿子div元素
+                    ul li+li: 毗邻选择器
+                        如果li标签的前面是li标签,那么就会被选中;
+                        选择span标签,前面一个元素是p
+                        #box p+span {
+                            color: red;
+                        }
+                    p~li{后继选择器,选择P后面的所有li};
+
+                    tips:
+                        1: 如果写的样式没有生效,很有可能是选择器优先级的问题;
+                        2: 如果你没有写某条样式但是出现了,很有可能是前面写的样式选择到了该元素;
+                        3: 所以请尽可能的详细,精准的找准目标;
+
+    -->
+    <div id="box" style="width: 100px;height: 100px;background-color: #fff;">
+        <span>罗玥</span>
+        <p>
+            <span>程浩</span>
+        </p>
+        <span>顾瑶</span>
+        <span>赖力</span>
+        <p>
+            <span>罗恒</span>
+        </p>
+        <span>范雨菲</span>
+    </div>
+<script>
+
+</script>
+</body>
+</html>

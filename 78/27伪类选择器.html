@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [class~="box"]{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        选择器的查询是从右到左的;
+        选择器的层级不要写多( <= 4)一般在三个左右
+            浪费很多查询性能
+            应该写关键性的
+        空格 后代选择器
+        >    子带选择器 更为优秀
+
+        , 逗号  #box,.box{}  多元素选择器
+
+        + 毗邻选择器 #box p+span
+            选择所有p后面的同级span元素
+
+        ~ 后继选择器 #box p~span
+            选择p后面的所有同级span
+        伪类选择器
+            :hover
+            :focus 当表单获得焦点时
+            :visited  被访问过的,特指a标签
+            :link     未被访问的链接 a
+            :active   被按下的状态 a按下
+            :checked  表单被勾选的状态 (几乎只有表单可以被记录状态)
+            :first-line 首行状态
+            :first-letter  首字(也就是第一个字)
+            ::selection 文本选中时触发(两个冒号)
+            :not(select) 反选,能选很多
+                .box2 :not(.p1){} 除了p1的所有
+
+        结构型伪类选择器
+            p:nth-child(n){}
+                从父元素开始,如果第n个元素是p这选中,否则无效;
+                even: 表示选中所有的偶数
+                odd:  表示选中所有的奇数
+            p:nth-of-type(1){}
+                选择的是所有的p标签的第二个
+
+        属性选择器
+            [class]{}
+            [type="text"][value="text"] 多个属性
+                选择所有具有class属性的元素
+            [class="box"]{}
+                选择所有具有class并且值为box的元素
+            [class~="box"]
+                选择所有具有class并且值包含box的元素
+            [class^="box"]
+                想想正则就是以^开头  $结尾
+                选择所有具有class并且值以box开头的元素
+            [class*="box-1"]
+                属性值存在box-1就会被选中
+
+
+    -->
+<div class="box">
+    
+</div>
+<div class="box-1 wrap">
+    
+</div>
+<script>
+
+</script>
+</body>
+</html>
