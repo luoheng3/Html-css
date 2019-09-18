@@ -1,0 +1,73 @@
+@charset "utf-8";  // 声明编码集
+/*
+  less
+    简介:
+      Less css是一种动态样式语言,属于css预处理语言的一种,类似于css的语法,为css赋予
+      了动态语言的特性,比如变量,继承,运算,函数等,使得css的编写与维护更加方便
+      less css 可以再多种语言,环境中使用,包括浏览器端,桌面客户端,服务端.
+    编译环境
+      1: 下载安装visual studio code工具
+          在扩展中装插件
+            1: easy less
+            2: easy sass
+            3: view in browser
+            安装之后重新加载一次
+
+      2: 下载 node.js安装
+        编译环境,将所写的less sass转换成css文件
+*/
+/*
+less语法 95187 3
+  1: 注释和css一样
+  2: 变量 允许单独定义一系列通用的样式,在需要时调用
+      声明变量: @符号定义
+        eg: @base: #f60
+        .box{
+          color: @base
+        }
+
+*/
+// 声明变量的方式
+@base: #f60;
+@images: "../img";
+@w100: width;
+.box{
+  @{w100}: 100px;
+  color: @base;
+  background:url("@{images}/1.jpg");
+}
+// mixin 普通混合
+.border{
+  border: 1px solid red;
+}
+.box1{
+  width: 100px;
+  .border;  // 这样的方式border会对外暴露出来
+  .border-px('10px');
+  .border2-px;
+}
+// 带参数混合
+.border-px(@num){
+  border: @num solid red;
+}
+.border2-px(@num:10px){
+  border: @num solid red;
+}
+// 不会对外暴露
+.wrap(){
+  text-align: center;
+}
+.box2{
+  .wrap;
+}
+// 嵌套规则 (和stylus一样的 只不过stylus不用加括号分号)
+#header{
+  @{w100}: 60px;
+  .content{ //父级的样式在自己身上,子级在下面
+    font-size: 12px;
+    color: red;
+    &:hover{ // 给自身的伪类样式 和stylus一样
+      color: blue;
+    }
+  }
+}
